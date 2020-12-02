@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    color: white;
+    padding: 44px 5%;
+    background-color: #075985;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+}
+
+.sidebar {
+    width: 150px;
+    background-color: #0EA5E9;
+}
+
+.content {
+    flex-grow: 1;
+    background-color: #E0F2FE;
+}
+
+footer {
+    justify-content: center;
+}
